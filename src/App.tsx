@@ -1,10 +1,13 @@
 import './App.css'
-import TicTacToe from './components/TicTacToe'
+
+import StartButton from './components/StartButton'
 
 function App() {
 
   return (
-<TicTacToe />
+    <>
+    <StartButton />
+</>
   )
 }
 

@@ -6,35 +6,15 @@ body {
   color: white;
 }
 
-h1 {
-  text-align: center;
+
+.transition-item {
+    transition: transform 1.5s ease;
 }
 
-/* .reset-button {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: #0074a6;
-  color: white;
-  width: 100%;
-  font-size: 1.5em;
-} */
-
-
-/* Board komponent */
-
-
-.board {
-
-
+.transition-enter {
+  transform: rotateY(-360deg);
 }
 
-.board-row {
-  
+.transition-enter-active {
+  transform: rotateY(0deg);
 }
-
-.cell {
-  height: 100px;
-  width: 100px;
-}
-
-
